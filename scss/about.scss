@@ -1,0 +1,290 @@
+$title-color: #189a46;
+$red-color: #F53626;
+$grey-color: #696969;
+$black-color: #000c04;
+$bg-color: #F9F7FE;
+$bf-light: rgba(147, 107, 232, 0.05);
+// header{
+//     display: none;
+// }
+.slider{
+    margin-top: 100px;
+    height: 250px;
+    background-image: url(../until/img/banner4.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    ::before{
+        content : "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #0c0c0c;
+        width: 100%;
+        height: 100%;
+        opacity : 0.1;
+        z-index: -1;
+    }
+    .text{
+        z-index: 10;
+        color: white;
+        font-size: 50px;
+        font-weight: 800;
+        .hometo{
+            display: flex;
+            justify-content: center;
+            font-size: 1.2rem;
+            .hometo-1{
+                color: $title-color;
+                margin-right: 8px;
+            }
+            .arrow{
+                margin-right: 8px;
+                
+            }
+            .hometo-2{
+                margin-right: 8px;
+                
+            }
+        }
+    }
+   
+}
+
+.experience{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+    .container{
+        display: flex;
+        .title{
+            width: 40%;
+            h3{
+                color: $red-color;
+                font-size: 18px;
+            }
+            h1{
+                font-size: 35px;
+                font-weight: 800;
+            }
+            h4{
+
+            }
+        }
+        .content{
+            width: 60%;
+            font-size: 1.2rem;
+            color: $grey-color;
+            .read-more{
+                margin-top: 1rem;
+                color: $black-color;
+                font-weight: 600;
+                text-decoration: 2px underline $title-color;
+                &:hover{
+                    color: $title-color;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.history{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 35%;
+    background-image: url(../until/img/banner2.jpg);
+    height: 560px;
+    position: relative;
+    z-index: 1;
+    ::before{
+        content : "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #0c0c0c;
+        width: 100%;
+        height: 100%;
+        opacity : 0.05;
+        z-index: -1;
+    }
+    .container{
+        z-index: 10;
+        width: 70%;
+        .title{
+            h3{
+                color: $red-color;
+                font-size: 18px;
+            }
+            h1{
+                font-size: 35px;
+                font-weight: 800;
+                color: white;
+            }
+            p{
+                font-size: 1.2rem;
+                color: white;
+            }
+        }
+        .content{
+            margin-top: 50px;
+            color: white;
+            z-index: 10;
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.2em;
+            h4{
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+.us{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .container{
+        display: flex;
+        justify-content: space-around;
+        .title{
+            text-align: right;
+            width: 45%;
+            position: relative;
+            h3{
+                color: $red-color;
+                font-size: 18px;
+            }
+            h1{
+                font-size: 35px;
+                font-weight: 800;
+                color: $black-color;
+            }
+            p{
+                font-size: 1.2rem;
+                color: $grey-color;
+                font-weight: 400;
+            }
+            .us-img{
+                width: 500px;
+                img{
+                    width: 100%;
+                    border-radius: 10px;
+                }
+                position: absolute;
+                right: 0;
+            }
+        }
+        .content{
+            .item{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 10px;
+                .icon{
+                    color: $title-color;
+                    margin-right: 10px;
+                    font-size: 40px;
+                }
+                .content{
+                    h4{
+                        font-size: 24px;
+                        font-weight: 700;
+                        &:hover{
+                            color: $title-color;
+                        }
+                    }
+                    p{
+                        font-size: 1.2em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.team{
+    background-color: $bg-color;
+    .container{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        .title{
+            text-align: center;
+            margin-bottom: 50px;
+            h3{
+                color: $red-color;
+                font-size: 18px;
+            }
+            h1{
+                font-size: 35px;
+                font-weight: 800;
+                color: $black-color;
+            }
+        }
+        .content{
+            justify-content: space-between;
+            .item{
+                text-align: center;
+                .team-img{
+                    height: 300px;
+                    img{
+                        border-radius: 10px;
+                        height: 100%;
+                    }
+                }
+                h2{
+                    margin-top: 20px;
+                    font-size: 22px;
+                    font-weight: 600;
+                }
+                p{
+
+                }
+                .social{
+                    display: flex;
+                    justify-content: center;
+                    .box{
+                        font-size: 15px;
+                        padding: 10px 15px;
+                        background-color: rgba(147, 107, 232, 0.05);
+                        border-radius: 10px;
+                        margin-right: 10px;
+                        color: $title-color;
+                        &:hover{
+                            background-color: $title-color;
+                        }
+                        
+                    }
+                }
+                &:hover{
+                    .team-img{
+                        overflow: hidden;
+                        img{
+                            border-radius: 0px;
+                            transform: scale(1.3);
+                            transition: 1.3s;
+                        }
+                    }
+                    h2{
+                        color: $title-color;
+                    }
+                }
+                &:not(:hover){
+                    .team-img{
+                        overflow: hidden;
+                        border-radius: 10px;
+                        img{
+                            transform: scale(1);
+                            transition: 1.3s;
+                        }
+                    }    
+                }
+            }
+        }
+    }
+}
+
