@@ -1,0 +1,77 @@
+$title-color: #189a46;
+$red-color: #F53626;
+$grey-color: #696969;
+$black-color: #000c04;
+$bg-color: #F9F7FE;
+$bf-light: rgba(147, 107, 232, 0.05);
+
+.title{
+    background-color: $bg-color;
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 50px;
+    h3{
+        color: $red-color;
+        font-size: 18px;
+    }
+    h1{
+        font-size: 35px;
+        font-weight: 800;
+    }
+}
+.content{
+    background-color: $bg-color;
+    .container{
+        .row{
+            .column{
+                .item{
+                    transition: .3s;
+                    margin-bottom: 50px;
+                    .img{
+                        img{
+
+                        }
+                    }
+                    .text{
+                        .title{
+                            background-color: white;
+                            text-align: left;
+                            padding-top: 10px;
+                            padding-bottom: 0;
+                            h1{
+                                font-size: 35px;
+                                font-weight: 800;
+                            }
+                            p{
+                                color: $grey-color;
+                                font-size: 18px;
+                            }
+                        }
+                        h5{
+                            font-size: 16px;
+                            color: $grey-color;
+                            span{
+                                font-size: 18px;
+                                color: #000c04;
+                                &:hover{
+                                    color: $red-color;
+                                }
+                            }
+                        }
+                        h6{
+                            font-size: 15px;
+                            color: $grey-color;
+                            display: flex;
+                            .comment{
+                                margin-right: 20px;
+                            }
+                        }
+                    }
+                    &:hover{
+                        transform: translateY(-10px);
+                    }
+                }
+            }
+        }
+    }
+}
