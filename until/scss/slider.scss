@@ -1,0 +1,49 @@
+$title-color: #189a46;
+.slider{
+    margin-top: 100px;
+    height: 250px;
+    background-image: url(../until/img/banner4.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    ::before{
+        content : "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #0c0c0c;
+        width: 100%;
+        height: 100%;
+        opacity : 0.1;
+        z-index: -1;
+    }
+    .text{
+        z-index: 10;
+        color: white;
+        font-size: 50px;
+        font-weight: 800;
+        .hometo{
+            display: flex;
+            justify-content: center;
+            font-size: 1.2rem;
+            .hometo-1{
+                color: $title-color;
+                margin-right: 8px;
+            }
+            .arrow{
+                margin-right: 8px;
+                
+            }
+            .hometo-2{
+                margin-right: 8px;
+                
+            }
+        }
+    }
+   
+}
