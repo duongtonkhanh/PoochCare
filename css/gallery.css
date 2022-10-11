@@ -23,7 +23,11 @@
   width: 100%;
 }
 .content .container .row .column .item:hover::after {
-  left: 200px;
+  left: 400px;
+}
+.content .container .row .column .item:not(:hover)::after {
+  left: -100%;
+  transition: 0s;
 }
 .content .container .row .column .item::after {
   content: "";
@@ -36,5 +40,5 @@
   height: 100%;
   background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
   transform: skewX(-25deg);
-  transition: all 0.3s;
+  transition: all 0.5s;
 }

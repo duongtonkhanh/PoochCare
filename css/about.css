@@ -48,12 +48,6 @@
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.experience .container {
-  display: flex;
-}
-.experience .container .title {
-  width: 40%;
-}
 .experience .container .title h3 {
   color: #F53626;
   font-size: 18px;
@@ -63,7 +57,6 @@
   font-weight: 800;
 }
 .experience .container .content {
-  width: 60%;
   font-size: 1.2rem;
   color: #696969;
 }
@@ -82,9 +75,7 @@
 .history {
   padding-top: 100px;
   padding-bottom: 50px;
-  padding-left: 35%;
   background-image: url(../until/img/banner2.jpg);
-  height: 560px;
   position: relative;
   z-index: 1;
 }
@@ -133,14 +124,8 @@
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.us .container {
-  display: flex;
-  justify-content: space-around;
-}
 .us .container .title {
   text-align: right;
-  width: 45%;
-  position: relative;
 }
 .us .container .title h3 {
   color: #F53626;
@@ -157,12 +142,11 @@
   font-weight: 400;
 }
 .us .container .title .us-img {
-  width: 500px;
-  position: absolute;
-  right: 0;
+  height: 260px;
+  text-align: right;
 }
 .us .container .title .us-img img {
-  width: 100%;
+  height: 100%;
   border-radius: 10px;
 }
 .us .container .content .item {
@@ -238,6 +222,7 @@
 }
 .team .container .content .item .social .box:hover {
   background-color: #189a46;
+  color: #F9F7FE;
 }
 .team .container .content .item:hover .team-img {
   overflow: hidden;
