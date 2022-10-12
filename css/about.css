@@ -71,8 +71,7 @@
   margin-top: 1rem;
   color: #000c04;
   font-weight: 600;
-  -webkit-text-decoration: 2px underline #189a46;
-          text-decoration: 2px underline #189a46;
+  text-decoration: 2px underline #189a46;
 }
 .experience .container .content .read-more:hover {
   color: #189a46;
