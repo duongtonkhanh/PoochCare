@@ -46,14 +46,14 @@ $card-hover-color: #f3effd;
         color: $text-menu-color;
 
         &::before {
-            width: 80%;
+            width: 100%;
         }
     }
 
     &::before {
         content: '';
         position: absolute;
-        left: 10px;
+        left: 1px;
         bottom: $bottom;
         height: $height;
         width: 0%;
@@ -73,6 +73,38 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.navright{
+    background-color: #0d1326;
+    border-radius: 0 0 0 5px;
+    right: 0;
+    top: 10%;
+    position: fixed;
+    
+    ul{
+        margin: 0;
+        padding: 8px;
+        li{
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            a{
+                text-decoration: none;
+                color:#8f95a8;
+                font-size: 18px;
+                z-index: 9999;
+
+                .circle{
+                    padding: 10px 15px;
+                    border-radius: 50%;
+                    background-color: #868993;
+                    z-index: 100;
+                }
+            }
+        }
+    }
 }
 
 header {
@@ -99,11 +131,14 @@ header {
             .container-fluid {
                 .navbar-collapse {
                     .nav-link {
-                        @include menu-item(2px, 5px)
+                        font-size: 20px !important; 
+                        @include menu-item(2px, 5px);
                     }
 
                     .dropdown {
+                        
                         .down-item {
+                            font-size: 20px !important; 
                             @include menu-item(1px, -2px)
                         }
                     }
@@ -795,6 +830,22 @@ blockquote {
     form {
         justify-content: center;
         margin-bottom: 20px;
+    }
+}
+.modal{
+    
+    .modal-dialog{
+
+        .modal-content{
+            background-color: transparent !important;
+            border: none;
+            position: relative;
+            video{
+                position: absolute;
+                width: 960px;
+                left: -200px;
+            }
+        }
     }
 }
 
