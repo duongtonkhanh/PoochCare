@@ -660,6 +660,11 @@ header {
                 color: #1f9d4b;
 
                 animation: ripple 1s linear infinite;
+
+                &:hover{
+                    transform: scale(120%);
+                    transition: all .5s;
+                }
             }
         }
     }
@@ -702,8 +707,22 @@ blockquote {
                     .active {
                         background-color: $text-menu-color;
                         width: 30px;
-                        height: 5px;
+                        height: 7px;
+                        border-radius: 11px;
+                        margin-top: 2px;
+                    }
+                    button{
+                        width: 10px;
+                        height: 10px;
                         border-radius: 50%;
+
+                        &:hover{
+                            background-color: $text-menu-color;
+                            width: 30px;
+                            height: 7px;
+                            border-radius: 11px;
+                            margin-top: 2px;
+                        }
                     }
                 }
 

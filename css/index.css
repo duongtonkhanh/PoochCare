@@ -560,6 +560,10 @@ header .container-head nav .container-fluid .navbar-collapse #btn-mode {
   color: #1f9d4b;
   animation: ripple 1s linear infinite;
 }
+.video .container .content .btn-play:hover {
+  transform: scale(120%);
+  transition: all 0.5s;
+}
 
 blockquote {
   font-size: 24px;
@@ -590,8 +594,21 @@ blockquote {
 .testimonials .container .content .carousel .carousel-indicators .active {
   background-color: #1f9d4b;
   width: 30px;
-  height: 5px;
+  height: 7px;
+  border-radius: 11px;
+  margin-top: 2px;
+}
+.testimonials .container .content .carousel .carousel-indicators button {
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
+}
+.testimonials .container .content .carousel .carousel-indicators button:hover {
+  background-color: #1f9d4b;
+  width: 30px;
+  height: 7px;
+  border-radius: 11px;
+  margin-top: 2px;
 }
 .testimonials .container .content .carousel .carousel-inner .carousel-item .cards {
   display: flex;
