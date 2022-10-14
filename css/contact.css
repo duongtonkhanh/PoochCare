@@ -79,7 +79,8 @@
   margin-bottom: 0;
 }
 .content .container .row .column .item .text .p-hover p:hover {
-  text-decoration: 1px underline #189a46;
+  -webkit-text-decoration: 1px underline #189a46;
+          text-decoration: 1px underline #189a46;
   color: #189a46;
 }
 

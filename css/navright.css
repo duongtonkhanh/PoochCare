@@ -1,0 +1,23 @@
+.navright {
+  background-color: #0d1326;
+  border-radius: 0 0 0 5px;
+  right: 0;
+  top: 17%;
+  position: fixed;
+  z-index: 200;
+}
+.navright ul {
+  margin: 0;
+  padding: 8px;
+}
+.navright ul li {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.navright ul li a {
+  text-decoration: none;
+  color: #8f95a8;
+  font-size: 18px;
+}

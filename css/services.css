@@ -25,7 +25,8 @@
   margin-top: 1rem;
   color: #000c04;
   font-weight: 600;
-  text-decoration: 2px underline #189a46;
+  -webkit-text-decoration: 2px underline #189a46;
+          text-decoration: 2px underline #189a46;
   transition: 0.5s;
 }
 .content .container .item .title .read-more:hover {

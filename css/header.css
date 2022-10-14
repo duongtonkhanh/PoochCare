@@ -12,12 +12,40 @@ body {
   background-color: #fff;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navright {
+  background-color: #0d1326;
+  border-radius: 0 0 0 5px;
+  right: 0;
+  top: 17%;
+  position: fixed;
+}
+.navright ul {
+  margin: 0;
+  padding: 8px;
+}
+.navright ul li {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.navright ul li a {
+  text-decoration: none;
+  color: #8f95a8;
+  font-size: 18px;
+}
+
 header {
   position: fixed;
   width: 100%;
   top: 50px;
   background-color: #fff;
-  z-index: 100;
+  z-index: 200;
 }
 header .container-head {
   max-width: 1199px;
@@ -32,6 +60,7 @@ header .container-head h1 {
   padding: 0px;
 }
 header .container-head nav .container-fluid .navbar-collapse .nav-link {
+  font-size: 20px !important;
   text-decoration: none;
   position: relative;
   color: #000;
@@ -56,6 +85,7 @@ header .container-head nav .container-fluid .navbar-collapse .nav-link::before {
   border-radius: 25px;
 }
 header .container-head nav .container-fluid .navbar-collapse .dropdown .down-item {
+  font-size: 20px !important;
   text-decoration: none;
   position: relative;
   color: #000;
