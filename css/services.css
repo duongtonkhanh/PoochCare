@@ -1,19 +1,12 @@
 .content .container .item {
   padding-top: 100px;
   padding-bottom: 100px;
-  display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.content .container .item .item-img {
-  width: 50%;
 }
 .content .container .item .item-img img {
   border-radius: 10px;
   width: 85%;
-}
-.content .container .item .title {
-  width: 50%;
 }
 .content .container .item .title h3 {
   color: #F53626;
