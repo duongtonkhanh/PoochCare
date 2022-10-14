@@ -79,7 +79,7 @@ body {
     background-color: #0d1326;
     border-radius: 0 0 0 5px;
     right: 0;
-    top: 10%;
+    top: 17%;
     position: fixed;
     
     ul{
@@ -94,14 +94,6 @@ body {
                 text-decoration: none;
                 color:#8f95a8;
                 font-size: 18px;
-                z-index: 9999;
-
-                .circle{
-                    padding: 10px 15px;
-                    border-radius: 50%;
-                    background-color: #868993;
-                    z-index: 100;
-                }
             }
         }
     }
@@ -840,10 +832,8 @@ blockquote {
             background-color: transparent !important;
             border: none;
             position: relative;
-            video{
-                position: absolute;
-                width: 960px;
-                left: -200px;
+            .video{
+                text-align: center;
             }
         }
     }
